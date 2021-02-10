@@ -1,15 +1,16 @@
-/* * {
+* {
   border: 1px solid black;
-} */
+}
 
 html {
   font-size: 62.5%;
+  
 }
 
-/* .container {
-  display: table;
-  margin: 0 auto;
-} */
+body {
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 1.6rem;
+}
 
 .nav {
   list-style: none;
@@ -30,20 +31,50 @@ html {
 
 .button-visit {
   color: white;
-  background-color: orange;
+  background-color: #FF764E;
 }
 
 .button-learn {
   color: white;
-  background-color: aqua;
+  background-color: #5ED3EB;
 }
 
 .button-involved {
   color: white;
-  background-color:khaki;
+  background-color:#FFCD69;
 }
 
 .header-img {
   width: 200px;
   border-radius: 100px;
 }
+
+.header-img-div {
+  display: inline-block;
+  width: 30%;
+  margin-left: 10%;
+}
+
+.yosemite-text-div {
+  display: inline-block;
+  width: 50%;
+}
+
+.fire {
+  width: 100px;
+}
+
+.van {
+  width: 100px;
+}
+
+.empty-background {
+  background-image: url("assets/footer_img.jpg");
+  width: 100%;
+  height: 40vh;
+}
+
+.footer {
+  background-color: #F9E7DC;
+}
+
