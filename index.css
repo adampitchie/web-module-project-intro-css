@@ -1,0 +1,49 @@
+/* * {
+  border: 1px solid black;
+} */
+
+html {
+  font-size: 62.5%;
+}
+
+/* .container {
+  display: table;
+  margin: 0 auto;
+} */
+
+.nav {
+  list-style: none;
+  text-align: center;
+}
+
+.nav li {
+  display: inline;
+  
+}
+
+.nav a {
+  display: inline-block;
+  padding: 10px;
+  margin: 0 10%;
+  border-radius: 10px;
+}
+
+.button-visit {
+  color: white;
+  background-color: orange;
+}
+
+.button-learn {
+  color: white;
+  background-color: aqua;
+}
+
+.button-involved {
+  color: white;
+  background-color:khaki;
+}
+
+.header-img {
+  width: 200px;
+  border-radius: 100px;
+}
