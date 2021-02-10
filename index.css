@@ -9,7 +9,7 @@ html {
 
 body {
   font-family: "Roboto Mono", sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
 }
 
 .nav {
@@ -60,6 +60,17 @@ body {
   width: 50%;
 }
 
+.yosemite-text-div h1 {
+  font-family: 'Chelsea Market', cursive;
+  font-size: 38px;
+}
+
+.paragraph {
+  background-color: #DDB9A3;
+  color: white;
+  padding: 2%;
+}
+
 .fire {
   width: 100px;
 }
@@ -70,8 +81,10 @@ body {
 
 .empty-background {
   background-image: url("assets/footer_img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 100%;
-  height: 40vh;
+  height: 20vh;
 }
 
 .footer {
